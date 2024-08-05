@@ -6,20 +6,18 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "webpack --config webpack.config.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
-     "build": "webpack --config webpack.config.js"
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^16.0.0",
-    "@angular/common": "^16.0.0",
+    "@angular/common": "^16.2.12",
     "@angular/compiler": "^16.0.0",
     "@angular/core": "^16.0.0",
     "@angular/forms": "^16.0.0",
-    "@angular/http": "^7.2.16",
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
@@ -31,6 +29,7 @@
     "@capacitor/keyboard": "5.0.6",
     "@capacitor/status-bar": "5.0.6",
     "@ionic-native/camera": "^5.36.0",
+    "@ionic-native/core": "^5.36.0",
     "@ionic/angular": "^7.0.0",
     "@ionic/pwa-elements": "^3.2.2",
     "cordova-plugin-camera": "^7.0.0",
