@@ -13,6 +13,13 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/common": "^16.0.0",
+    "@angular/core": "^16.0.0",
+    "@ionic-native/core": "^6.0.0",
+    "@ionic-native/http": "^6.0.0",
+    "rxjs": "~6.5.5",
+    "zone.js": "~0.10.2",
+    "cordova-plugin-advanced-http": "^3.0.0",
     "@angular/animations": "^16.0.0",
     "@angular/common": "^16.2.12",
     "@angular/compiler": "^16.0.0",
